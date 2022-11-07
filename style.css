@@ -27,16 +27,21 @@ body{
 
 .display{
     height: 25%;
-    width: 100%;
+    width: 94%;
+    margin-top: 3%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    background-color: #D3CDD7;
+    border: none;
+    border-radius: 1rem 1rem 0.5rem 0.5rem;
+    box-shadow: rgba(0,0,0,0.7) 0px 5px 15px;
 }
 
 .mainText{
-    color: #7BD389;
+    color: #2E282A;
     margin: 0 3%;
-    font-size: 3rem;
+    font-size: 2.49rem;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -61,9 +66,7 @@ body{
     justify-content: space-evenly;
 }
 
-
 .button{
-    /* flex: 1 0 0; */
     height: 85%;
     aspect-ratio: 1;
     border-radius: 100%;
@@ -71,10 +74,42 @@ body{
     background-color: #8377D1;
     font-size: 1.5rem;
     color: #F1F0FA;
+    box-shadow: rgba(0,0,0,0.7) 0px 5px 15px;
+    transition: all 125ms;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 85%;
+}
+
+.button:hover{
+    transform: translateY(-0.2rem);
+    background-color: #F1F0FA;
+    color:#2E282A
+}
+
+.clear:hover, .backspace:hover{
+    background-color: #FF0035;
+    color:#F1F0FA;
+}
+
+.operator:hover{
+    background-color: #FF6700;
+    color: #F1F0FA;
 }
 
 .operator{
     font-size: 2rem;
+}
+
+.equals:hover{
+    background-color: #59FFA0;
+}
+
+.button:active{
+    transform: translateY(0rem);
+    box-shadow: none;
 }
 
 .clear, .equals{
@@ -87,4 +122,7 @@ body{
 
 .equals{
     font-size: 2.5rem;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
 }
