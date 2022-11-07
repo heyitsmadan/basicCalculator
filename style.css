@@ -70,6 +70,10 @@ body{
     color: #F1F0FA;
 }
 
+.operator{
+    font-size: 2rem;
+}
+
 .clear, .equals{
     aspect-ratio: 2;
     border-radius: 3rem;
@@ -78,3 +82,6 @@ body{
     width: 45.5%; /*this shit fucking killed me */
 }
 
+.equals{
+    font-size: 2.5rem;
+}
