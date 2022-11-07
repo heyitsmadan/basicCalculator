@@ -11,6 +11,7 @@ body{
     height: 100vh;
     background-color: #D3CDD7;
 }
+
 .container{
     height: 60%;
     aspect-ratio: 3 / 5;
@@ -21,7 +22,7 @@ body{
     border-radius: 1rem;
     border: solid #2E282A;
     background-color: #2E282A;
-    box-shadow: rgba(0,0,0,1) 0px 5px 15px;
+    box-shadow: rgba(0,0,0,0.7) 0px 5px 15px;
 }
 
 .display{
@@ -36,6 +37,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0.5rem 0;
 }
 
 .row{
@@ -46,6 +48,7 @@ body{
     height: 20%;
     justify-content: space-evenly;
 }
+
 
 .button{
     /* flex: 1 0 0; */
@@ -63,5 +66,6 @@ body{
     border-radius: 3rem;
     color: #18143D;
     background-color: #D4D1F0;
+    width: 45.5%; /*this shit fucking killed me */
 }
 
