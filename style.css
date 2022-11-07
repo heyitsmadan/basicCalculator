@@ -28,6 +28,15 @@ body{
 .display{
     height: 25%;
     width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.mainText{
+    color: #7BD389;
+    padding-right: 3%;
+    font-size: 2.3rem;
 }
 
 .buttons{
@@ -37,7 +46,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0.5rem 0;
+    padding: 0.3rem;
 }
 
 .row{
@@ -57,7 +66,7 @@ body{
     border-radius: 100%;
     border: none;
     background-color: #8377D1;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     color: #F1F0FA;
 }
 
